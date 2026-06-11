@@ -466,7 +466,7 @@ a:focus {
 }
 
 .section-title h2 {
-	font-size: 52px;
+	font-size: 46px;
 	font-weight: 500;
 	line-height: 1.1em;
 	letter-spacing: -0.01em;
@@ -582,13 +582,13 @@ header.main-header .header-sticky.active {
 	transition: all 0.3s ease-in-out;
 }
 
-.main-menu ul li.submenu>a:after {
+/* .main-menu ul li.submenu>a:after {
 	content: '\f107';
 	font-family: 'FontAwesome';
 	font-weight: 900;
 	font-size: 14px;
 	margin-left: 8px;
-}
+} */
 
 .main-menu ul li a:hover,
 .main-menu ul li a:focus {
@@ -641,7 +641,7 @@ header.main-header .header-sticky.active {
 }
 
 .main-menu ul ul li a {
-	color: var(--primary-color);
+	/* color: var(--primary-color); */
 	padding: 8px 20px !important;
 	transition: all 0.3s ease-in-out;
 }
@@ -1982,7 +1982,7 @@ header.main-header .header-sticky.active {
 
 .our-features-item.experience-item {
 	background-color: var(--primary-color);
-	background-image: url(../images/our-feature-experience-item.svg);
+	background-image: url(../images/custom/shield-checkered-fill.png);
 	background-repeat: no-repeat;
 	background-position: top 20px right 20px;
 	background-size: 80px auto;
@@ -3234,6 +3234,16 @@ header.main-header .header-sticky.active {
 	margin-top: 15px;
 	overflow: hidden;
 }
+.page-header-2 {
+	position: relative;
+	background-image: url('../images/custom/contact-banner.png') !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 265px 0 150px;
+	margin-top: 15px;
+	overflow: hidden;
+}
 
 .page-header:before {
 	content: '';
@@ -3288,7 +3298,7 @@ header.main-header .header-sticky.active {
 }
 
 .our-approach {
-	background-image: url(../images/setion-bg-image-1.png);
+	background-image: url(../images/custom/section-bg-image-2.jpg);
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position: bottom -60px left -100px;
@@ -11183,3 +11193,20 @@ header.main-header .header-sticky.active {
 	background-color: transparent;
 	color: var(--accent-color);
 }
+
+
+.certificate-slider {
+    overflow: hidden;
+}
+
+.certificate-slider .swiper-slide {
+    height: auto;
+}
+
+.certificate-slider .swiper-slide img {
+    width: 100%;
+    height: 500px; /* adjust as needed */
+    object-fit: cover;
+    display: block;
+}
+
