@@ -5345,9 +5345,9 @@ header.main-header .header-sticky.active {
 
 @media only screen and (max-width: 991px) {
 
-	.btn-default {
+	/* .btn-default {
 		padding: 15px 44px 15px 15px;
-	}
+	} */
 
 	.btn-default::before {
 		right: 15px;
@@ -11233,4 +11233,93 @@ header.main-header .header-sticky.active {
 	height: 100%;
 	object-fit: cover;
 	display: block;
+}
+
+.hero-banner {
+	background-image: url('../images/custom/hero-banner.png');
+	background-size: cover;
+	background-position: center;
+}
+
+
+@media (max-width: 768px) {
+	.footer-logo img {
+		width: 100px;
+	}
+
+	.our-approach {
+		padding: 30px 0;
+		background-position: bottom -25px right 0px;
+	}
+}
+
+
+@media (max-width: 450px) {
+	.logo-header {
+		width: 60px;
+	}
+
+	.navbar {
+		padding: 10px 0;
+	}
+
+	.section-title h1 {
+		font-size: 24px;
+	}
+
+	.section-title h2 {
+		font-size: 22px;
+	}
+
+	p {
+		font-size: 12px
+	}
+
+	.btn-default {
+		font-size: 12px;
+		padding: 8px 18px;
+	}
+
+	.readmore-btn {
+		font-size: 12px;
+	}
+
+	.testimonial-item-content p {
+		font-size: 12px;
+	}
+
+	.testimonial-author-content h2 {
+		font-size: 14px;
+	}
+
+	.company-supports-logo img {
+		height: 120px;
+	}
+
+	.what-we-item-content-gold h3 {
+		font-size: 14px;
+	}
+
+	.what-we-contact-content-gold h3 {
+		font-size: 14px;
+	}
+
+	li {
+		font-size: 12px;
+	}
+
+	.footer-copyright-text {
+		flex-direction: column;
+	}
+
+	.footer-header .section-title h2 {
+		font-size: 22px;
+	}
+
+	.section-title .section-sub-title {
+		font-size: 12px;
+	}
+	.section-btn {
+		margin-top: 0px;
+	}
 }
