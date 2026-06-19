@@ -103,7 +103,7 @@
 				delay: 0,
 				disableOnInteraction: false,
 				pauseOnMouseEnter: false,
-				 reverseDirection: true, // Left → Right
+				reverseDirection: true, // Left → Right
 			},
 
 			allowTouchMove: false,
@@ -476,3 +476,20 @@
 	/* Program Item List End */
 
 })(jQuery);
+
+window.addEventListener('load', function () {
+	const hash = window.location.hash;
+
+	if (hash) {
+		const target = document.querySelector(hash);
+
+		if (target) {
+			setTimeout(() => {
+				target.scrollIntoView({
+					behavior: 'smooth',
+					block: 'start'
+				});
+			}, 200);
+		}
+	}
+});
