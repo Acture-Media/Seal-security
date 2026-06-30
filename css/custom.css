@@ -3226,7 +3226,7 @@ header.main-header .header-sticky.active {
 
 .page-header {
 	position: relative;
-	background-image: url('../images/custom/security-man-standing-outdoor.png');
+	background-image: url('../images/custom/banner-1.webp');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -3237,7 +3237,18 @@ header.main-header .header-sticky.active {
 
 .page-header-2 {
 	position: relative;
-	background-image: url('../images/custom/contact-banner.png') !important;
+	background-image: url('../images/custom/banner-3.webp') !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 265px 0 150px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+.page-header-3 {
+	position: relative;
+	background-image: url('../images/custom/banner-4.webp') !important;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -11236,7 +11247,7 @@ header.main-header .header-sticky.active {
 }
 
 .hero-banner {
-	background-image: url('../images/custom/hero-banner.png');
+	background-image: url('../images/custom/banner-5.webp');
 	background-size: cover;
 	background-position: center;
 }
